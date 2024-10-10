@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+         <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url('/CTU_new_logo.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #a0522d;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        .main-content img {
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+        }
+
+        .main-content a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            background-color: #f4f4f4;
+            padding: 10px 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        .main-content a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color:	#a0522d;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <section class="main-content">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>We welcome questions, feedback, or inquiries about WordWeave. Feel free to reach out to us at info@wordweave.com.</p>
+    <form>
+      <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send">
+    </form>
+</div>
+  </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CTU-DC Article Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
